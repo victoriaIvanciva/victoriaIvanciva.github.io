@@ -1,0 +1,13 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	height: 100px;
+	width: 100%;
+	background-color: #E13D00;
+}
+.singIn {
+	float: right;
+	padding: 40px 20px 0 0;
+}

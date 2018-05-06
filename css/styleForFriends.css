@@ -1,0 +1,20 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+header {
+	height: 100px;
+	width: 100%;
+	background-color: #E13D00;
+}
+.singIn {
+	float: right;
+}
+header a{
+	display: inline-block;
+	color: #D9D9D9;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 60px 20px 0 20px;
+	column-rule: 2px solid #7F7F7F;
+}
