@@ -29,7 +29,7 @@ section{
 	font-size: 18px;
 	padding-left: 10px;
 	text-align: center;
-	color: #24211F;
+	color: ##141315;
 }
 .password {
 	margin-top: 40px;
@@ -46,6 +46,6 @@ button {
 .SingIn {
 	margin-left: 6px;
 }
-button, button:visited, button:focus, button:active, button:hover, input[type="text"], input[type="password"]:focus{
+button, button:visited, button:focus, button:active, button:hover, input:focus{
     outline:0 none !important;
 }

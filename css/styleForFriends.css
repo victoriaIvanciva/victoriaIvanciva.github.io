@@ -20,3 +20,28 @@ header a{
 body {
 	background-color: #f1f1f1;
 }
+header input {
+	width: 250px;
+	height: 27px;
+	background-color: #f1f1f1;
+	border-radius: 15px;
+	text-align: center;
+	margin-top: 50px;
+	margin-left: 30px;
+	float: left;
+}
+header input:focus{
+    outline:0 none !important;
+}
+header input::placeholder {
+	color: #404040FF;
+}
+.photo {
+	height: 75px;
+	width: 75px;
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	float: right;
+	margin-right: 60px; 
+	margin-top: 13px;
+}
