@@ -49,7 +49,6 @@ header input::placeholder {
 	display: inline-block;
 	margin-top: 50px;
 	margin-left: 900px;
-/*	position: fixed;*/
 }
 img.set{
 	transition: 1.5s;
