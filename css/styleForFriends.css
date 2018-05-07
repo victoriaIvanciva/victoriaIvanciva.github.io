@@ -33,16 +33,6 @@ header input:focus{
 header input::placeholder {
 	color: #404040FF;
 }
-.photo {
-	height: 75px;
-	width: 75px;
-	background-color: #f1f1f1;
-	border-radius: 10px;
-	margin-top: 13px;
-	right: 60px; 
-	position: static;
-	display: inline-block;
-}
 .pinion {
 	height: 40px;
 	width: 40px;
@@ -55,4 +45,75 @@ img.set{
 }
 .pinion:hover img.set {
 	transform: rotate(200deg);
+}
+.setting{
+	position: absolute;
+	z-index: 3;
+	width: 200px;
+	height: 175px;
+	background-color: white;
+	left: 1100px;
+	top: 100px;
+	border-radius: 20px;
+}
+.setting ul, .setting li {
+	list-style: none;
+}
+.setting ul li a {
+	display: block;
+	padding: 15px;
+	font-size: 25px;
+	color: #404040FF;
+	text-align: center;
+	text-decoration: none;
+}
+.secondElem:nth-child(2), .thirdElem:nth-child(3){
+	border-top: 1px solid #404040FF;
+}
+.firstElem a:hover{
+	background-color: #404040FF;
+	color: #ffffff;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+.secondElem a:hover{
+	background-color: #404040FF;
+	color: #ffffff;
+}
+.thirdElem a:hover{
+	background-color: #404040FF;
+	color: #ffffff;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+.editPassword{
+	list-style: none;
+	display: block;
+	position: absolute;
+	z-index: 4;
+	width: 200px;
+	height: 180px;
+	background-color: #404040FF;
+	right: 200px;
+	top: 60px;
+	border-radius: 20px;
+}
+.editPassword input{
+	width: 160px;
+	height: 25px;
+	text-align: center;
+	margin: 10px 17px;
+	color: #404040FF;
+}
+header input::placeholder {
+	color: #404040FF;
+}
+.photo {
+	height: 75px;
+	width: 75px;
+	background-color: #f1f1f1;
+	border-radius: 10px;
+	margin-top: 13px;
+	right: 60px;
+	display: inline-block;
 }
