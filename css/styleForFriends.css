@@ -2,20 +2,17 @@
 	margin: 0px;
 	padding: 0px;
 }
+.all{	
+	overflow: hidden;
+	height: 100%;
+	width: 100%;
+	min-width: 1400px;
+	max-width: 100%
+	}
 header {
 	height: 100px;
 	width: 100%;
 	background-color: #E13D00;
-}
-.singIn {
-	float: right;
-}
-header a{
-	display: inline-block;
-	color: #f1f1f1;
-	text-decoration: none;
-	font-size: 21px;
-	margin: 60px 20px 0 20px;
 }
 body {
 	background-color: #f1f1f1;
@@ -39,9 +36,24 @@ header input::placeholder {
 .photo {
 	height: 75px;
 	width: 75px;
-	background-color: #f1f1f1;
+	background-color: #FF006E;
 	border-radius: 10px;
-	float: right;
-	margin-right: 60px; 
 	margin-top: 13px;
+	right: 60px; 
+	position: static;
+	display: inline-block;
+}
+.pinion {
+	height: 40px;
+	width: 40px;
+	display: inline-block;
+	margin-top: 50px;
+	margin-left: 900px;
+/*	position: fixed;*/
+}
+img.set{
+	transition: 1.5s;
+}
+.pinion:hover img.set {
+	transform: rotate(200deg);
 }
