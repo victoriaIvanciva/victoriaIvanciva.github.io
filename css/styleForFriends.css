@@ -6,8 +6,8 @@
 	overflow: hidden;
 	height: 100%;
 	width: 100%;
-	min-width: 1400px;
-	max-width: 100%
+	min-width: 990px;
+	max-width: 1800px;
 	}
 header {
 	height: 100px;
@@ -24,7 +24,7 @@ header input {
 	border-radius: 15px;
 	text-align: center;
 	margin-top: 50px;
-	margin-left: 30px;
+	margin-left: 85px;
 	float: left;
 }
 header input:focus{
@@ -33,28 +33,37 @@ header input:focus{
 header input::placeholder {
 	color: #404040FF;
 }
+.informationOfUser {
+	height: 100px;
+	width: 400px;
+	float: right;
+
+}
 .pinion {
-	height: 40px;
-	width: 40px;
+	height: 50px;
+	width: 100px;
 	display: inline-block;
-	margin-top: 50px;
-	margin-left: 900px;
+	margin-left: 150px;
+	margin-top: 25px
 }
 img.set{
+	display: block;
+	margin: auto;
 	transition: 1.5s;
 }
 .pinion:hover img.set {
-	transform: rotate(200deg);
+	transform: rotate(360deg);
 }
 .setting{
 	position: absolute;
 	z-index: 3;
 	width: 200px;
-	height: 175px;
-	background-color: white;
+	height: 116px;
+	background-color: #C0C0C0;
 	left: 1100px;
 	top: 100px;
 	border-radius: 20px;
+	display: none;
 }
 .setting ul, .setting li {
 	list-style: none;
@@ -67,7 +76,7 @@ img.set{
 	text-align: center;
 	text-decoration: none;
 }
-.secondElem:nth-child(2), .thirdElem:nth-child(3){
+.secondElem:nth-child(2){
 	border-top: 1px solid #404040FF;
 }
 .firstElem a:hover{
@@ -79,41 +88,81 @@ img.set{
 .secondElem a:hover{
 	background-color: #404040FF;
 	color: #ffffff;
-}
-.thirdElem a:hover{
-	background-color: #404040FF;
-	color: #ffffff;
 	border-bottom-right-radius: 20px;
 	border-bottom-left-radius: 20px;
 }
-.editPassword{
-	list-style: none;
+.pinion:hover + .setting{
 	display: block;
-	position: absolute;
-	z-index: 4;
-	width: 200px;
-	height: 180px;
-	background-color: #404040FF;
-	right: 200px;
-	top: 60px;
-	border-radius: 20px;
 }
-.editPassword input{
-	width: 160px;
-	height: 25px;
+.setting:hover{
+	display: block;
+}
+.userName {
+	height: 20px;
+	width: 220px;
 	text-align: center;
-	margin: 10px 17px;
-	color: #404040FF;
-}
-header input::placeholder {
-	color: #404040FF;
+	font-size: 20px;
+	color: #303030FF;
+	float: left;
+	margin-top: 15px;
+	display: inline-block;
 }
 .photo {
 	height: 75px;
 	width: 75px;
-	background-color: #f1f1f1;
+	background-color: #F1F1F1;
 	border-radius: 10px;
-	margin-top: 13px;
-	right: 60px;
 	display: inline-block;
+	top:13px;
+	position: absolute;
+}
+
+
+article {
+	height: 480px;
+	width: 330px;
+	float: left;
+	display: inline-block;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-top: 28px;
+	margin-left: 45px;
+	overflow: auto;
+}
+main {
+	height: 480px;
+	width: 800px;
+/*	display: inline-block;*/
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin-top: 28px;
+	right: 70px;
+	position: fixed;
+	
+}
+section {
+	width: 314px;
+	height: 49px;
+	background-color: #DBD9DE;
+	border-bottom: 1px solid #C0C0C0FF;
+	text-align: center;
+	font-size: 17px;
+	color: #404040FF;
+	padding: 8px;
+}
+section img {
+	float: left;
+}
+main form input {
+	height: 40px;
+	width: 700px;
+	bottom: 10px;
+	background-color: #DBD9DE;
+	border-radius: 5px;
+	display: block;
+	margin: auto;
+	bottom: 20px;
+	position: absolute;
+
+
 }
