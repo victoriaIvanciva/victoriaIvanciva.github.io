@@ -132,13 +132,12 @@ article {
 main {
 	height: 480px;
 	width: 800px;
-/*	display: inline-block;*/
+	display: inline-block;
 	background-color: #ffffff;
 	border-radius: 5px;
 	margin-top: 28px;
-	right: 70px;
-	position: fixed;
-	
+	margin-right: 70px;
+
 }
 section {
 	width: 314px;
